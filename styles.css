@@ -12,6 +12,7 @@ ul {
   width: 25%;
   border: 1px solid white;
   background-color: black;
+  color:white;
   position: fixed;
   height: 100%;
   overflow: auto;
