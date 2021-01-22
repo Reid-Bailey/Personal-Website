@@ -10,11 +10,37 @@ body {
   border: 1px solid white;
 }
 
-li {
-  padding: 20px;
-  margin: 20px;
-  background-color: black;
-  text-align: center;
-  border: 1px solid white;
+ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 30%;
+  background-color: black;
+  border: 1px solid white;
+}
+
+li a {
+  display: block;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li {
+  text-align: center;
+  border-bottom: 1px solid white;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+li a.active {
+  background-color: white;
+  color: black;
+}
+
+li a:hover:not(.active) {
+  background-color: grey;
+  color: white;
 }
