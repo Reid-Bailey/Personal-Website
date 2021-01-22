@@ -30,8 +30,6 @@ li a.active {
 }
 
 li a:hover:not(.active) {
-  background-color: grey;
-  color: white;
   animation: mymove 1s infinite;
 }
 
