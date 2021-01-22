@@ -1,46 +1,31 @@
-* {
-  box-sizing: border-box;
-}
-
 body {
-  background-color: black;
-  color: white;
-  font-family: "Courier New", monospace;
-  font-size: 12px;
-  border: 1px solid white;
+  margin: 0;
 }
 
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 30%;
-  background-color: black;
-  border: 1px solid white;
+  width: 25%;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
 }
 
 li a {
   display: block;
-  color: white;
+  color: #000;
   padding: 8px 16px;
   text-decoration: none;
 }
 
-li {
-  text-align: center;
-  border-bottom: 1px solid white;
-}
-
-li:last-child {
-  border-bottom: none;
-}
-
 li a.active {
-  background-color: white;
-  color: black;
+  background-color: #4CAF50;
+  color: white;
 }
 
 li a:hover:not(.active) {
-  background-color: grey;
+  background-color: #555;
   color: white;
 }
